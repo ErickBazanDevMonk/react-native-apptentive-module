@@ -1,6 +1,12 @@
 # react-native-apptentive-module
-ReactNative module for Apptentive 5.0.+
+ReactNative module for [Apptentive](https://github.com/apptentive/apptentive-ios) 5.0.+
 Version 1.2.1
+
+[Example project](https://github.com/erikpoort/react-native-apptentive-module-Example)
+
+## Deprecated
+Apptentive released their own React Native module! 
+Please, consider using the official [Apptentive React Native Module](https://github.com/apptentive/apptentive-react-native) instead.
 
 ## Installation
 
@@ -20,7 +26,7 @@ https://learn.apptentive.com/knowledge-base/ios-integration-reference/#cocoapods
 Android needs some extra attention as well, because Apptentive needs a reference to your 
 Application. In your Application class, make sure the package is added as followed:
 ```java
-new RNApptentivePackage(this)
+new RNApptentivePackage(MainApplication.this)
 ``` 
 
 ## Usage
